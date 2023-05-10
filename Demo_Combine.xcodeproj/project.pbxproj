@@ -64,16 +64,48 @@
 			children = (
 				8461BFB62A0227D100C0A989 /* AppDelegate.swift */,
 				8461BFB82A0227D100C0A989 /* SceneDelegate.swift */,
-				8461BFBA2A0227D100C0A989 /* ViewController.swift */,
+				84ECD17E2A0BB373009F3E33 /* View */,
+				84ECD17C2A0BB322009F3E33 /* Model */,
+				84ECD17D2A0BB32D009F3E33 /* ViewModel */,
+				84ECD17B2A0BB311009F3E33 /* Network */,
 				8461BFBC2A0227D100C0A989 /* Main.storyboard */,
 				8461BFBF2A0227D200C0A989 /* Assets.xcassets */,
 				8461BFC12A0227D200C0A989 /* LaunchScreen.storyboard */,
 				8461BFC42A0227D200C0A989 /* Info.plist */,
-				8461BFCA2A0227E300C0A989 /* ViewModel.swift */,
-				84ECD1742A0B7279009F3E33 /* NetworkManager.swift */,
-				84ECD1782A0B7796009F3E33 /* Model.swift */,
 			);
 			path = Demo_Combine;
+			sourceTree = "<group>";
+		};
+		84ECD17B2A0BB311009F3E33 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				84ECD1742A0B7279009F3E33 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		84ECD17C2A0BB322009F3E33 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84ECD1782A0B7796009F3E33 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84ECD17D2A0BB32D009F3E33 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8461BFCA2A0227E300C0A989 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		84ECD17E2A0BB373009F3E33 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8461BFBA2A0227D100C0A989 /* ViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
